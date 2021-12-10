@@ -1,6 +1,6 @@
-#Spring Data REST
-####Doc-s are here - https://docs.spring.io/spring-data/rest/docs/current/reference/html
-####Next examples represented via **_Kotlin_** 
+# Spring Data REST
+#### Doc-s are here - https://docs.spring.io/spring-data/rest/docs/current/reference/html
+#### Next examples represented via **_Kotlin_** 
 
 Topics:
 
@@ -33,7 +33,7 @@ class CustomizedRestMvcConfiguration : RepositoryRestConfigurer {
 }
 ```
 
-###_Basic Example_
+### _Basic Example_
 
 Create entity and repository. If you are using `JpaRepository` Spring adds pagination/sort things (`http://resource-name/?size=5&page=2`), `CrudRepository` provides only basic entities.
 
@@ -57,7 +57,7 @@ open class Person {
 }
 ```
 
-###_Search_
+### _Search_
 
 ```kotlin
 	@RestResource(path = "nameStartsWith", rel = "myResourceName")
@@ -78,7 +78,7 @@ The result will be (`http://localhost:8080/resources/persons/search`):
 	}
 }
 ```
-###_Resource with inner resource_
+### _Resource with inner resource_
 Let's add to our person an address entity with the `@OneToOne` binding, using interface:
 ```kotlin
     // class Person
