@@ -4,13 +4,14 @@
 
 Topics:
 
-- [Change base path for resources](#_change-base-path-for-resources_)
-- [Basic example](#_basic-example_)
-- [Search](#_search_)
-- [Resource with inner resource](#_resource-with-inner-resource_)
-- [Jackson custom serialization](#_jackson-custom-serialization-on-post_)
-- [Expose ID-s](#_expose-id-s_)
-- [Restrictions for HTTP methods](#_restrictions-for-http-methods_)
+- [Change base path for resources](#change-base-path-for-resources)
+- [Basic example](#basic-example)
+- [Search](#search)
+- [Resource with inner resource](#resource-with-inner-resource)
+- [Jackson custom serialization](#jackson-custom-serialization-on-post)
+- [Projections](#projections)
+- [Expose ID-s](#expose-id-s)
+- [Restrictions for HTTP methods](#restrictions-for-http-methods)
 
 ### _Change base path for resources_
 You can apply the base path for all **DataRepositories** via the spring boot's application file
